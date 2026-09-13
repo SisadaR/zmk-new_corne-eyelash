@@ -152,8 +152,8 @@
             display-name = "CONFIG";
             bindings = <
 &trans  &ext_power EP_TOG   &trans        &trans        &trans        &trans                            &trans          &bt BT_CLR    &bt BT_CLR_ALL    &trans          &trans           &kp CAPS    &trans
-&trans  &trans              &trans        &trans        &trans        &trans                &trans      &trans  &trans  &trans        &trans            &trans          &trans           &kp KP_NUM  &trans
-&trans  &trans              &trans        &trans        &trans        &trans      &trans                &trans          &trans        &bt BT_SEL 0      &bt BT_SEL 1    &bt BT_SEL 2     &trans      &trans
+&trans  &ext_power EP_ON    &trans        &trans        &trans        &trans                &trans      &trans  &trans  &trans        &trans            &trans          &trans           &kp KP_NUM  &trans
+&trans  &ext_power EP_OFF   &trans        &trans        &trans        &trans      &trans                &trans          &trans        &bt BT_SEL 0      &bt BT_SEL 1    &bt BT_SEL 2     &trans      &trans
                                           &trans        &trans        &trans                                            &out OUT_USB  &out OUT_BLE      &out OUT_TOG 
             >;
 
