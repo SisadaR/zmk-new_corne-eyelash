@@ -133,7 +133,7 @@
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
-        };
+        }; 
 
         Mouse6 {
             display-name = "MOUSE";
