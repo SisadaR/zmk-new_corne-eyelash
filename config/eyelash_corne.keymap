@@ -13,6 +13,10 @@
 
 &soft_off { hold-time-ms = <2000>; };
 
+&mt { flavor = "balanced"; };
+
+&lt { flavor = "balanced"; };
+
 / {
     behaviors {
         td0: td0 {
@@ -39,9 +43,7 @@
     };
 
      
-    &mt { flavor = "balanced"; };
 
-    &lt { flavor = "balanced"; };
 
 
     keymap {
@@ -80,7 +82,7 @@
 &trans  &kp EXCL   &kp AT     &kp HASH  &kp DLLR       &kp PRCNT                       &trans          &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR       &trans
 &trans  &kp GRAVE  &kp TILDE  &kp F1    &kp F2         &kp F3              &trans      &trans  &trans  &kp F4     &kp F5    &kp F6           &none     &kp PIPE       &trans
 &trans  &trans     &trans     &kp F7    &kp F8         &kp F9      &trans              &trans          &kp F10    &kp F11   &kp F12          &trans    &kp BACKSLASH  &trans
-                              &trans    &kp LG(SPACE)  &trans                                          &trans     &trans    &kp PIPE
+                              &trans    &kp LC(SPACE)  &trans                                          &trans     &trans    &kp PIPE
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -139,7 +141,7 @@
             bindings = <
 &trans  &trans  &trans        &trans        &trans        &trans                          &trans          &bt BT_CLR    &bt BT_CLR_ALL    &trans          &trans           &kp CAPS    &trans
 &trans  &trans  &trans        &trans        &trans        &out OUT_TOG        &trans      &trans  &trans  &trans        &trans            &trans          &trans           &kp KP_NUM  &trans
-&trans  &trans  &trans        &trans        &trans        &trans      &trans              &trans          &trans        &bt BT_SEL 0      &bt BT_SEL 1    &bt BT_SEL 2k    &trans      &trans
+&trans  &trans  &trans        &trans        &trans        &trans      &trans              &trans          &trans        &bt BT_SEL 0      &bt BT_SEL 1    &bt BT_SEL 2    &trans      &trans
                               &trans        &trans        &trans                                          &out OUT_USB  &out OUT_BLE      &trans  &trans
             >;
 
