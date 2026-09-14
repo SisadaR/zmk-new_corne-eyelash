@@ -100,7 +100,7 @@
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
-        numpad3 {
+        Numpad3 {
             display-name = "NUMPAD";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                          &trans          &kp KP_PLUS      &kp KP_N7        &kp KP_N8   &kp KP_N9  &trans  &trans
@@ -139,7 +139,7 @@
         Mouse6 {
             display-name = "MOUSE";
             bindings = <
-&trans  &kp ESC     &trans     &trans    &trans    &trans                          &trans          &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none   &trans
+&trans  &kp ESC     &trans     &trans    &trans    &trans                          &trans          &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &tog 6  &trans
 &trans  &kp TAB     &kp LCTRL  &kp LALT  &kp LGUI  &trans              &trans      &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
 &trans  &kp LSHIFT  &trans     &trans    &trans    &kp DEL     &trans              &trans          &kp BACKSPACE   &mkp MB4        &mkp MB5      &trans           &trans  &trans
                                &trans    &trans    &mkp LCLK                                       &mkp RCLK       &mkp MCLK       &trans
