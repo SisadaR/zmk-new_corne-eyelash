@@ -4,6 +4,9 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: cormoran
       url-base: https://github.com/cormoran
+      # support nice_oled and nice_epaper
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
@@ -27,5 +30,9 @@ manifest:
     - name: zmk-module-runtime-input-processor
       remote: cormoran
       revision: zmk-v0.3.0.0
+      # support nice_oled and nice_epaper
+    - name: zmk-nice-oled
+      remote: mctechnology17
+      revision: main
   self:
     path: config
